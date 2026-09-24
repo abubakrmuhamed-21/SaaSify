@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(),tailwindcss(),],
   server:{
     open : true
-  }
-  base: '/SaaSify/'
+  },
+  base: '/SaaSify/' //repo name
 })
